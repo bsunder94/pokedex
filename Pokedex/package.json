@@ -1,0 +1,19 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Submitted by: Ben Sunderland (directory id: bsunderl)\r         Group Members: Ben Sunderland (bsunderl)\r         App Description: Allows the user to look up Pokemon cards from all sets and add them to a collection that shows the card, the set, and the market value.Cards can be stored and viewed later.\r         YouTube Video Link: https://www.youtube.com/watch?v=EelNOaAeUbc\r         APIs: TCGPlayer (https://www.tcgplayer.com/?srsltid=AfmBOorHmoZJHlx7-pUUYr7JybfRc0snijE8CrvHQ7JroejGEL_WEMhj) Pokémon TCG API Documentation (https://docs.pokemontcg.io/)\r         Contact Email:  Bsunderl@terpmail.umd.edu",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.0"
+  }
+}

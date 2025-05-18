@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PokéCard Collector</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  </head>
+<body>
+  <h1 class="text-bordered">The Collector's Pokédex</h1>
+  <form id="searchForm">
+    <input type="text" id="searchInput" placeholder="Enter card name">
+    <button type="submit">Search</button>
+    <select id="setSelect">
+      <option value="">All Sets</option> 
+    </select>
+    <button type="button" id="setOnlyBtn">Search Entire Set</button>
+    
+  </form>
+
+  <button id="resetBtn">Reset Results</button>
+  <button id="collectionBtn">View My Collection</button>
+
+  <div id="results" class="card-gallery"></div>
+
+  <script src="/main.js"></script>
+</body>
+</html>
